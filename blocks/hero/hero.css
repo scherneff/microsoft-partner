@@ -30,7 +30,7 @@
   margin: 0 auto;
   color: var(--text-light);
   text-align: center;
-  font-family: var(--black-font-family);
+  /*font-family: var(--black-font-family);*/
 }
 
 /* Special underline (only for h1 by default) */

@@ -285,7 +285,7 @@ picture {
   margin: 0 0 20px 0;
   width: 100%;
   max-width: none;
-  color: var(--text-light);
+  color: black;
 }
 
 .hero.image-background-text-left .button-container {

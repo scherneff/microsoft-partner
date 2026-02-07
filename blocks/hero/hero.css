@@ -269,7 +269,8 @@ picture {
     text-shadow: unset;
 }
 .hero.image-left h1,.hero.image-right h1{
-  color: var(--text-color);
+  /*color: var(--text-color);*/
+  color: black;
   text-shadow: unset;
 }
 

@@ -79,7 +79,7 @@
 /* Primary CTA */
 .hero-wrapper .button-container.cta-button a.button {
   background-color: var(--main-accent-color);
-  border: 2px solid var(--main-accent-color);
+  /*border: 2px solid var(--main-accent-color);*/
 }
 
 .hero-wrapper .button-container.cta-button a.button::after {

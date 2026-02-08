@@ -338,11 +338,11 @@ async function renderWBDataLayer() {
  */
 async function loadEager(doc) {
   setPageLanguage();
-  //set experiment plugin
+  /* //set experiment plugin
    // Add below snippet early in the eager phase
   if (runExperimentation) {
     await runExperimentation(document, experimentationConfig);
-  }
+  } */
   // Preconnect dynamically to speed up LCP fetch without hardcoding hosts
   try {
     addPreconnect(window.location.origin);
@@ -433,10 +433,10 @@ async function loadLazy(doc) {
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
-  // Add below snippet at the end of the lazy phase
+  /* // Add below snippet at the end of the lazy phase
   if (showExperimentationOverlay) {
     await showExperimentationOverlay(document, experimentationConfig);
-  }
+  } */
 }
 
 function isDMOpenAPIUrl(src) {

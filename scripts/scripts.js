@@ -1,4 +1,4 @@
-const experimentationConfig = {
+/* const experimentationConfig = {
   prodHost: 'www.my-site.com',
   audiences: {
     mobile: () => window.innerWidth < 600,
@@ -6,6 +6,18 @@ const experimentationConfig = {
     // define your custom audiences here as needed
   }
 };
+
+window.aem.plugins.add('experimentation', { // use window.hlx instead of your project has this
+  condition: () =>
+    // page level metadata
+    document.head.querySelector('[name^="experiment"],[name^="campaign-"],[name^="audience-"]')
+    // decorated section metadata
+    || document.querySelector('.section[class*=experiment],.section[class*=audience],.section[class*=campaign]')
+    // undecorated section metadata
+    || [...document.querySelectorAll('.section-metadata div')].some((d) => d.textContent.match(/Experiment|Campaign|Audience/i)),
+  options: experimentationConfig,
+  url: '/plugins/experimentation/src/index.js',
+});
 
 let runExperimentation;
 let showExperimentationOverlay;
@@ -16,7 +28,7 @@ if (isExperimentationEnabled) {
     loadEager: runExperimentation,
     loadLazy: showExperimentationOverlay,
   } = await import('../plugins/experimentation/src/index.js'));
-}
+} */
 
 
 import {

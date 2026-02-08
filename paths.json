@@ -1,22 +1,22 @@
 {
   "mappings": [
-    "/content/wknd-universal/language-masters/en:/",
-    "/content/wknd-universal/language-masters/en/:/en/",
-    "/content/wknd-universal/language-masters/fr/:/fr/",
-    "/content/wknd-universal/language-masters/fr:/fr",
-    "/content/wknd-universal/language-masters/es/:/es/",
-    "/content/wknd-universal/language-masters/es:/es",
-    "/content/wknd-universal/language-masters/ja/:/ja/",
-    "/content/wknd-universal/language-masters/ja:/ja",
-    "/content/wknd-universal/language-masters/de/:/de/",
-    "/content/wknd-universal/language-masters/de:/de",
-    "/content/wknd-universal/configuration:/.helix/config.json",
-    "/content/wknd-universal/metadata:/metadata.json",
-    "/content/wknd-universal/redirects:/redirects.json",
-    "/content/wknd-universal/placeholders:/placeholders.json"
+    "/content/Microsoft-Partner/language-masters/en:/",
+    "/content/Microsoft-Partner/language-masters/en/:/en/",
+    "/content/Microsoft-Partner/language-masters/fr/:/fr/",
+    "/content/Microsoft-Partner/language-masters/fr:/fr",
+    "/content/Microsoft-Partner/language-masters/es/:/es/",
+    "/content/Microsoft-Partner/language-masters/es:/es",
+    "/content/Microsoft-Partner/language-masters/ja/:/ja/",
+    "/content/Microsoft-Partner/language-masters/ja:/ja",
+    "/content/Microsoft-Partner/language-masters/de/:/de/",
+    "/content/Microsoft-Partner/language-masters/de:/de",
+    "/content/Microsoft-Partner/configuration:/.helix/config.json",
+    "/content/Microsoft-Partner/metadata:/metadata.json",
+    "/content/Microsoft-Partner/redirects:/redirects.json",
+    "/content/Microsoft-Partner/placeholders:/placeholders.json"
   ],
   "includes": [
-    "/content/wknd-universal/",
-    "/content/dam/wknd-universal/"
+    "/content/Microsoft-Partner/",
+    "/content/dam/Microsoft-Partner/"
   ]
 }
